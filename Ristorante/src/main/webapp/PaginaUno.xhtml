@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition template="layout/template.xhtml">
+    
+    <ui:define name="content">
+       <p:panel header="home" closable="true" closeTitle="chiudi" toggleable="true">
+           <p:fieldset legend="Profilo" toggleable="true" toggleSpeed="200">
+               <p:panelGrid columns="2">
+                  <h:outputText value="Terry da piccola"/>
+                  <p:graphicImage library="immagini" name="cane.jpg" width="125" height="100"/>
+               </p:panelGrid>
+           </p:fieldset>
+           <p:fieldset legend="Profilo" toggleable="true" toggleSpeed="200">
+               <p:panelGrid columns="2">
+               <p:graphicImage library="immagini" name="cane.jpg" width="125" height="100"/>
+               <p:scrollPanel mode="native" style="width:500px; height:100px;">
+               
+                  <h:outputText value="Terry da piccola"/><br/>
+                  <h:outputText value="Terry da piccola"/><br/>
+                  <h:outputText value="Terry da piccola"/><br/>
+                  <h:outputText value="Terry da piccola"/><br/>
+                  <h:outputText value="Terry da piccola"/><br/>
+                  <h:outputText value="Terry da piccola"/><br/>
+                  <h:outputText value="Terry da piccola"/><br/>
+                  <h:outputText value="Terry da piccola"/><br/>
+                  <h:outputText value="Terry da piccola"/><br/>
+                  <h:outputText value="Terry da piccola"/><br/>
+                  <h:outputText value="Terry da piccola"/>
+                  
+               </p:scrollPanel>
+               </p:panelGrid>
+           </p:fieldset>
+       
+       
+       </p:panel>
+    </ui:define>
+    </ui:composition>
+</html>
